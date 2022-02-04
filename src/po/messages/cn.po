@@ -1,0 +1,733 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: KrISS feed\n"
+"POT-Creation-Date: 2017-01-23 20:56+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jadeiin <Jadeiin@qunn.eu>\n"
+"Language-Team: \n"
+"Language: zh_CN\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Poedit 3.0.1\n"
+
+#, php-format
+msgid "Can not create %s directory, check permissions"
+msgstr "无法创建 %s 目录，请检查权限"
+
+#, php-format
+msgid "Can not protect %s directory with .htaccess, check permissions"
+msgstr "无法使用 .htaccess 保护 %s 目录，请检查权限"
+
+msgid "Wrong token"
+msgstr "错误的令牌"
+
+msgid "Login failed!"
+msgstr "登录失败！"
+
+msgid "I said: NO. You are banned for the moment. Go away."
+msgstr "我说：不。你已被暂时封禁。快滚。"
+
+msgid "Sign in"
+msgstr "登入"
+
+msgid "Change your password"
+msgstr "更改你的密码"
+
+msgid "Help"
+msgstr "帮助"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Plugins management"
+msgstr "插件管理"
+
+msgid "Configuration"
+msgstr "配置"
+
+#, php-format
+msgid "The file you are trying to upload is probably bigger than what this webserver can accept (%s). Please upload in smaller chunks."
+msgstr "你尝试上传的文件可能大于此网站服务器可以接受的文件大小 (%s)。请分块上传。"
+
+msgid "Import"
+msgstr "导入"
+
+msgid "Add a new feed"
+msgstr "添加新的订阅源"
+
+msgid "starred items"
+msgstr "已加星标的项目"
+
+msgid "Starred items"
+msgstr "已加星标的项目"
+
+msgid "Edit"
+msgstr "编辑"
+
+msgid "Please configure your share link first"
+msgstr "请先配置你的分享链接"
+
+msgid "unread items"
+msgstr "未读项目"
+
+msgid "Your simple and smart (or stupid) feed reader is now configured."
+msgstr "你的简单且智能（或愚蠢）的Rss阅读器现已配置完毕。"
+
+msgid "Continue"
+msgstr "继续"
+
+msgid "KrISS feed installation"
+msgstr "KrISS feed 安装"
+
+msgid "All feeds"
+msgstr "所有订阅源"
+
+msgid "Empty output data"
+msgstr "输出数据为空"
+
+msgid "Duplicated feed"
+msgstr "重复的订阅源"
+
+msgid "Unknown feedhash"
+msgstr "未知的订阅源哈希值"
+
+msgid "Items may have been missed since last update"
+msgstr "自上次更新以来一些项目可能已丢失"
+
+msgid "Feed"
+msgstr "订阅源"
+
+msgid "New items"
+msgstr "新项目"
+
+msgid "Time"
+msgstr "时间"
+
+msgid "Status"
+msgstr "状态"
+
+msgid "Successfully updated"
+msgstr "成功更新"
+
+msgid "Already up-to-date"
+msgstr "已经是最新的了"
+
+msgid "Total:"
+msgstr "总共："
+
+msgid "items"
+msgstr "项目"
+
+msgid "item"
+msgstr "项目"
+
+msgid "Successes"
+msgstr "成功"
+
+msgid "Success"
+msgstr "成功"
+
+msgid "Up-to-date"
+msgstr "最新"
+
+msgid "Errors"
+msgstr "错误"
+
+msgid "Error"
+msgstr "错误"
+
+msgid "Http code not valid"
+msgstr "Http状态码无效"
+
+msgid "Location not found"
+msgstr "未找到地址"
+
+msgid "Too many redirects"
+msgstr "重定向过多"
+
+msgid "Error when loading without curl"
+msgstr "在不使用curl加载时出错"
+
+#, php-format
+msgid "File %s (%s) was successfully processed: %d links imported"
+msgstr "文件 %s (%s) 已成功处理：已导入 %d 个链接"
+
+#, php-format
+msgid "File %s (%s) has an unknown file format. Check encoding, try to remove accents and try again. Nothing was imported."
+msgstr "文件 %s (%s) 的文件格式未知。请检查编码，尝试删除字母上的重音符号，然后重试。文件没有被导入。"
+
+msgid "Feed URL"
+msgstr "源地址"
+
+msgid "Add selected folders to feed"
+msgstr "在选定分类中添加订阅源"
+
+msgid "Edit feed"
+msgstr "编辑订阅源"
+
+msgid "Add a new folder"
+msgstr "添加一个新分类"
+
+msgid "Add new feed"
+msgstr "添加新订阅源"
+
+msgid "Use bookmarklet to add a new feed"
+msgstr "使用小书签添加新订阅源"
+
+msgid "Drag this link to your bookmarks toolbar, or right-click it and choose Bookmark This Link..."
+msgstr "将此链接拖到你的书签工具栏，或右键单击它并选择为此链接添加书签..."
+
+msgid "Old password"
+msgstr "旧密码"
+
+msgid "New password"
+msgstr "新密码"
+
+msgid "Cancel"
+msgstr "取消"
+
+msgid "Save new password"
+msgstr "保存新密码"
+
+msgid "KrISS feed main information"
+msgstr "KrISS feed主要信息"
+
+msgid "KrISS feed title"
+msgstr "KrISS feed标题"
+
+msgid "KrISS feed visibility"
+msgstr "KrISS feed可见性"
+
+msgid "Public KrISS feed"
+msgstr "公开的 KrISS feed"
+
+msgid "No restriction. Anyone can modify configuration, mark as read items, update feeds..."
+msgstr "没有限制。任何人都可以修改配置、标记为已读项目、更新订阅源……"
+
+msgid "Protected KrISS feed"
+msgstr "受保护的 KrISS feed"
+
+msgid "Anyone can access feeds and items but only you can modify configuration, mark as read items, update feeds..."
+msgstr "任何人都可以访问订阅源和项目，但只有你可以修改配置、标记为已读项目、更新订阅源......"
+
+msgid "Private KrISS feed"
+msgstr "私人的 KrISS feed"
+
+msgid "Only you can access feeds and items and only you can modify configuration, mark as read items, update feeds..."
+msgstr "只有你可以访问订阅源和项目，并且只有你可以修改配置、标记为已读项目、更新订阅源..."
+
+msgid "Shaarli URL"
+msgstr "Shaarli 链接"
+
+msgid "Options:"
+msgstr "选项："
+
+msgid "${url}: item link"
+msgstr "${url}：项目链接"
+
+msgid "${title}: item title"
+msgstr "${title}：项目标题"
+
+msgid "${via}: if domain of &lt;link&gt; and &lt;guid&gt; are different ${via} is equals to: <code>via &lt;guid&gt;</code>"
+msgstr "${via}：如果 <link> 和 <guid> 的域不同 ${via} 等于：<code>via &lt;guid&gt;</code>"
+
+msgid "${sel}: <strong>Only available</strong> with javascript: <code>selected text</code>"
+msgstr "${sel}：<strong>仅适用</strong>于javascript：<code>选定文本</code>"
+
+msgid "example with shaarli:"
+msgstr "以 shaarli 为例："
+
+msgid "KrISS feed redirector (only for links, media are not considered, <strong>item content is anonymize only with javascript</strong>)"
+msgstr "KrISS feed 重定向器（仅用于链接，不考虑媒体，<strong>项目内容仅通过javascript进行匿名处理</strong>）"
+
+msgid "<strong>http://anonym.to/?</strong> will mask the HTTP_REFERER, you can also use <strong>noreferrer</strong> to use HTML5 property"
+msgstr "<strong>http://anonym.to/?</strong> 将屏蔽 HTTP_REFERER，你也可以使用 <strong>noreferrer</strong> 来使用 HTML5 属性"
+
+msgid "Disable session cookie hijacking protection"
+msgstr "禁用会话 cookie 劫持保护"
+
+msgid "Check this if you get disconnected often or if your IP address changes often."
+msgstr "如果你经常断开连接或你的 IP 地址经常更改，请勾选此项。"
+
+msgid "Save modifications"
+msgstr "保存修改"
+
+msgid "KrISS feed preferences"
+msgstr "KrISS feed 首选项"
+
+msgid "Maximum number of items by feed"
+msgstr "订阅源的最大项目数"
+
+msgid "Need update to be taken into consideration"
+msgstr "想清楚后更改此项"
+
+msgid "Maximum delay between feed update (in minutes)"
+msgstr "订阅源更新之间的最大延迟（以分钟为单位）"
+
+msgid "Auto read next item option"
+msgstr "翻阅自动阅读选项"
+
+msgid "Do not mark as read when next item"
+msgstr "到下一项时不要标记当前项为已读"
+
+msgid "Auto mark current as read when next item"
+msgstr "到下一项时自动标记当前项为已读"
+
+msgid "Auto read next page option"
+msgstr "翻页自动阅读选项"
+
+msgid "Do not mark as read when next page"
+msgstr "到下一页时不要标记当前页为已读"
+
+msgid "Auto mark current as read when next page"
+msgstr "到下一页时自动标记当前页为已读"
+
+msgid "Not implemented yet"
+msgstr "尚未实现"
+
+msgid "Auto hide option"
+msgstr "自动隐藏选项"
+
+msgid "Always show feed in feeds list"
+msgstr "始终在订阅源列表中显示订阅源"
+
+msgid "Automatically hide feed when 0 unread item"
+msgstr "当有 0 个未读项目时自动隐藏订阅源"
+
+msgid "Auto focus option"
+msgstr "自动聚焦选项"
+
+msgid "Do not automatically jump to current item when it changes"
+msgstr "页面更改时不自动跳转到当前项目"
+
+msgid "Automatically jump to the current item position"
+msgstr "自动跳转到当前项目位置"
+
+msgid "Add favicon option"
+msgstr "添加网站图标选项"
+
+msgid "Do not add favicon next to feed on list of feeds/items"
+msgstr "不要在订阅源/项目列表上的订阅源旁边添加网站图标"
+
+msgid "Add favicon next to feed on list of feeds/items"
+msgstr "在订阅源/项目列表上的订阅源旁边添加网站图标"
+
+msgid "Warning: It depends on http://getfavicon.appspot.com/"
+msgstr "警告：这取决于 http://getfavicon.appspot.com/"
+
+msgid "but it will cache favicon on your server"
+msgstr "但它会在你的服务器上缓存网站图标"
+
+msgid "Preload option"
+msgstr "预加载选项"
+
+msgid "Do not preload items."
+msgstr "不要预加载项目。"
+
+msgid "Preload current page items in background. This greatly enhance speed sensation when opening a new item. Note: It uses your bandwith more than needed if you do not read all the page items."
+msgstr "在后台预加载当前页面项目。这大大增强了打开新项目时的速度感。注意：如果你没有阅读所有页面项目，它会使用超出所需的带宽。"
+
+msgid "Do not open link in new tab"
+msgstr "不要在新标签页中打开链接"
+
+msgid "Automatically open link in new tab"
+msgstr "自动在新标签页中打开链接"
+
+msgid "Auto update with javascript"
+msgstr "使用 javascript 自动更新"
+
+msgid "Do not auto update with javascript"
+msgstr "不要使用 javascript 自动更新"
+
+msgid "KrISS feed menu preferences"
+msgstr "KrISS feed 菜单首选项"
+
+msgid "You can order or remove elements in the menu. Set a position or leave empty if you do not want the element to appear in the menu."
+msgstr "你可以排列或移除菜单中的元素。设置每项的位置，如果你不希望元素出现在菜单中，请留空。"
+
+msgid "View"
+msgstr "视图"
+
+msgid "View as list"
+msgstr "列表视图"
+
+msgid "View as expanded"
+msgstr "扩展视图"
+
+msgid "Feeds"
+msgstr "订阅源"
+
+msgid "Hide feeds list"
+msgstr "隐藏订阅源列表"
+
+msgid "Show feeds list"
+msgstr "显示订阅源列表"
+
+msgid "Filter"
+msgstr "筛选"
+
+msgid "Show all items"
+msgstr "显示所有项目"
+
+msgid "Show unread items"
+msgstr "显示未读项目"
+
+msgid "Order"
+msgstr "顺序"
+
+msgid "Show older first"
+msgstr "从旧到新"
+
+msgid "Show newer first"
+msgstr "从新到旧"
+
+msgid "Update all"
+msgstr "更新全部"
+
+msgid "Update folder"
+msgstr "更新分类"
+
+msgid "Update feed"
+msgstr "更新订阅源"
+
+msgid "Mark as read"
+msgstr "标记为已读"
+
+msgid "Mark all as read"
+msgstr "全部标记为已读"
+
+msgid "Mark folder as read"
+msgstr "将分类标记为已读"
+
+msgid "Mark feed as read"
+msgstr "将订阅源标记为已读"
+
+msgid "Mark as unread"
+msgstr "标记为未读"
+
+msgid "Mark all as unread"
+msgstr "全部标记为未读"
+
+msgid "Mark folder as unread"
+msgstr "将分类标记为未读"
+
+msgid "Mark feed as unread"
+msgstr "将订阅源标记为未读"
+
+msgid "Edit all"
+msgstr "编辑全部"
+
+msgid "Edit folder"
+msgstr "编辑分类"
+
+msgid "KrISS feed paging menu preferences"
+msgstr "KrISS feed 分页菜单首选项"
+
+msgid "Item"
+msgstr "项目"
+
+msgid "If you want to go previous and next item"
+msgstr "如果想前后翻阅项目"
+
+msgid "Page"
+msgstr "分页"
+
+msgid "If you want to go previous and next page"
+msgstr "如果想前后翻页"
+
+msgid "Items by page"
+msgstr "每页项目数"
+
+msgid "If you want to modify number of items by page"
+msgstr "如果想修改每页项目数"
+
+msgid "If you want to add a mark as read button into paging"
+msgstr "如果想在分页中添加标记为已读按钮"
+
+msgid "Cron configuration"
+msgstr "计划任务配置"
+
+msgid "You can use <code>&force</code> to force update."
+msgstr "你可以使用 <code>&force</code> 来强制更新。"
+
+msgid "To update every hour:"
+msgstr "每小时更新一次："
+
+msgid "If you can not use wget, you may try php command line:"
+msgstr "如果你不能使用 wget，你可以试试 php 命令行："
+
+msgid "If previous solutions do not work, try to create an update.php file into data directory containing:"
+msgstr "如果以前的解决方案不起作用，请尝试在数据目录中创建一个 update.php 文件，其中包含："
+
+msgid "Then set up your cron with:"
+msgstr "然后使用以下命令设置你的计划任务："
+
+msgid "Do not forget to check permissions"
+msgstr "不要忘记检查权限"
+
+msgid "Reorder folders"
+msgstr "重新排序分类"
+
+msgid "Add selected folders to selected feeds"
+msgstr "将选定的订阅源添加到选定的分类"
+
+msgid "Remove selected folders to selected feeds"
+msgstr "将选定的订阅源从选定的分类删除"
+
+msgid "List of feeds"
+msgstr "订阅源列表"
+
+msgid "Select all"
+msgstr "全选"
+
+msgid "Unselect all"
+msgstr "取消全选"
+
+msgid "Delete selected feeds"
+msgstr "删除选定的订阅源"
+
+msgid "Do you really want to delete all selected feeds?"
+msgstr "你真的要删除所有选定的订阅源吗？"
+
+msgid "Feed main information"
+msgstr "订阅源主要信息"
+
+msgid "Feed title"
+msgstr "订阅源标题"
+
+msgid "Feed XML URL"
+msgstr "订阅源XML链接"
+
+msgid "Feed main URL"
+msgstr "订阅源主链接"
+
+msgid "Feed description"
+msgstr "订阅源描述"
+
+msgid "Feed folders"
+msgstr "订阅源分类"
+
+msgid "New folder"
+msgstr "新建分类"
+
+msgid "Feed preferences"
+msgstr "订阅源首选项"
+
+msgid "Time update"
+msgstr "更新时间"
+
+msgid "\"auto\", \"max\" or a number of minutes less than \"max\" define in <a href=\"?config\">configuration</a>"
+msgstr "\"auto\"、\"max\" 或小于 \"max\" 在<a href=\"?config\">配置</a>中定义的分钟数"
+
+msgid "Last update"
+msgstr "上次更新"
+
+msgid "Delete feed"
+msgstr "删除订阅源"
+
+msgid "Folder title"
+msgstr "分类标题"
+
+msgid "Leave empty to delete"
+msgstr "留空以删除"
+
+msgid "Keyboard shortcuts"
+msgstr "键盘快捷键"
+
+msgid "Key legend"
+msgstr "按键图例"
+
+msgid "Space key"
+msgstr "空格键"
+
+msgid "Shift key"
+msgstr "shift键"
+
+msgid "Right arrow key"
+msgstr "右箭头键"
+
+msgid "Left arrow key"
+msgstr "左箭头键"
+
+msgid "Items navigation"
+msgstr "项目导航"
+
+msgid "Toggle current item (open, close item in list view)"
+msgstr "切换当前项目（在列表视图中打开、关闭项目）"
+
+msgid "Mark current item as read if unread or unread if read"
+msgstr "如果未读则将当前项目标记为已读，如果已读则将其标记为未读"
+
+msgid "Mark current item as read if unread or unread if read and open current (useful in list view and unread filter)"
+msgstr "如果未读则将当前项目标记为已读，如果已读则将其标记为未读，并打开当前项目（在列表视图和未读项过滤器中很有用）"
+
+msgid "Go to next item"
+msgstr "转到下一项"
+
+msgid "Go to previous item"
+msgstr "转到上一个项目"
+
+msgid "Go to next page"
+msgstr "转到下一页"
+
+msgid "Go to previous page"
+msgstr "转到上一页"
+
+msgid "Go to next item and open it (in list view)"
+msgstr "转到下一项并打开它（在列表视图中）"
+
+msgid "Go to previous item and open it (in list view)"
+msgstr "转到上一个项目并打开它（在列表视图中）"
+
+msgid "Open current item in new tab"
+msgstr "在新标签中打开当前项目"
+
+msgid "Open current item in current window"
+msgstr "在当前窗口中打开当前项目"
+
+msgid "Share current item"
+msgstr "分享当前项目"
+
+msgid "Mark all items, all items from current feed or all items from current folder as read"
+msgstr "将所有项目、当前订阅源中的所有项目或当前分类中的所有项目标记为已读"
+
+msgid "Star/Unstar current item"
+msgstr "对当前项目星标/取消星标"
+
+msgid "Open all unread items from current page in new tabs and mark items as read"
+msgstr "在新选项卡中打开当前页面中的所有未读项目并将项目标记为已读"
+
+msgid "Menu navigation"
+msgstr "菜单导航"
+
+msgid "Go to Home page"
+msgstr "去首页"
+
+msgid "Change view as list or expanded"
+msgstr "将视图更改为列表或扩展"
+
+msgid "Show or hide list of feeds/folders"
+msgstr "显示或隐藏订阅源/分类列表"
+
+msgid "Edit current selection (all, folder or feed)"
+msgstr "编辑当前所选（全部、分类或订阅源）"
+
+msgid "Update current selection (all, folder or feed)"
+msgstr "更新当前所选（全部、分类或订阅源）"
+
+msgid "Reload the page as the F5 key in most of browsers"
+msgstr "在大多数浏览器中以 F5 键重新加载页面"
+
+msgid "Go to Help page (this page)"
+msgstr "转到帮助页面（此页面）"
+
+msgid "Configuration check"
+msgstr "配置检查"
+
+msgid "PHP configuration"
+msgstr "PHP 配置"
+
+msgid "You should be able to load https:// rss links."
+msgstr "你应该能够加载https的订阅链接。"
+
+msgid "You may have problems using https:// rss links."
+msgstr "你在使用https的订阅链接时可能会遇到问题。"
+
+msgid "Import opml file"
+msgstr "导入opml文件"
+
+msgid "Opml file:"
+msgstr "opml文件："
+
+msgid "Size max:"
+msgstr "最大文件大小："
+
+msgid "Overwrite existing feeds"
+msgstr "覆盖现有订阅源"
+
+msgid "top"
+msgstr "顶部"
+
+msgid "share"
+msgstr "分享"
+
+msgid "read"
+msgstr "设为已读"
+
+msgid "unread"
+msgstr "设为未读"
+
+msgid "star"
+msgstr "星标"
+
+msgid "unstar"
+msgstr "取消星标"
+
+msgid "from"
+msgstr "从"
+
+msgid "Click on flag to select your language."
+msgstr "单击标志以选择你的语言。"
+
+msgid "Login"
+msgstr "登录"
+
+msgid "Password"
+msgstr "密码"
+
+msgid "Install KrISS feed"
+msgstr "安装 KrISS feed"
+
+msgid "Welcome to KrISS feed"
+msgstr "欢迎来到 KrISS feed"
+
+msgid "Stay signed in (do not check on public computers)"
+msgstr "保持登录状态（不要在公共电脑上勾选）"
+
+msgid "Try again"
+msgstr "再试一次"
+
+msgid "Menu"
+msgstr "菜单"
+
+msgid "Home"
+msgstr "主页"
+
+msgid "Sign out"
+msgstr "登出"
+
+msgid "Change password"
+msgstr "更改密码"
+
+msgid "Export opml file"
+msgstr "导出opml文件"
+
+msgid "Previous item"
+msgstr "上一项"
+
+msgid "Next item"
+msgstr "下一项"
+
+msgid "Previous page"
+msgstr "上一页"
+
+msgid "Next page"
+msgstr "下一页"
+
+msgid "Items per page"
+msgstr "项目每页"
+
+msgid "A simple and smart (or stupid) feed reader"
+msgstr "一个简单且智能（或愚蠢）的Rss阅读器"
+
+#. KrISS: By Tontof
+msgid "By"
+msgstr "由"
+
+msgid "Go back"
+msgstr "返回"
+
+msgid "Force update"
+msgstr "强制更新"
