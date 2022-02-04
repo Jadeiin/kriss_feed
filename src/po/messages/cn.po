@@ -724,7 +724,7 @@ msgstr "一个简单且智能（或愚蠢）的Rss阅读器"
 
 #. KrISS: By Tontof
 msgid "By"
-msgstr "由"
+msgstr "作者"
 
 msgid "Go back"
 msgstr "返回"
